@@ -1,0 +1,151 @@
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #2c3e50;
+  padding: 35px 50px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  color: #52bd9c;
+}
+
+#navbar-right {
+  float: right;
+}
+.container-fluid {
+ 
+  margin-top:8rem;
+  padding:15px 15px 600px;
+  font-size:30px;
+   
+}
+html ,.container-fluid {
+  background-color: #52bd9c;
+
+ 
+}
+a#portfolio {
+    font-size: 25px;
+}
+div.photo-container{
+    height: 300px;
+    width: 300px;
+    margin:auto;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: white;
+   text-align: center;
+   background-image: url('../images/ara.jpg');
+   background-size: cover;
+    
+}
+h1.name{
+  text-align: center;
+  color: #ffffff;
+}
+.star{
+  text-align: center;
+  color: #ffffff;
+}
+.home-page{
+  max-height: 1000px;
+}
+#portfolio{
+  height: 200px;
+  background-color: white;
+  margin-top: 5rem;
+}
+h1.portfolio-title {
+    margin-top: 5rem;
+    text-align: center;
+    color:#52bd9c;
+    font-weight: bolder;
+}
+.portfolio-row{
+  height: 800px;
+  background-color: white;
+}
+.portfolio{
+  color:#ffffff;
+  margin-top:5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.myresume{
+  color:#ffffff;
+  margin-top:5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+h1.myresume {
+    margin-bottom: 0rem;
+} 
+.about-title{
+   color:#ffffff;
+   font-weight: bolder;
+   margin-bottom: 2rem;
+}
+.about-row{
+  height: 600px;
+}
+.about-content{
+  text-align: justify;
+  font-size: 15px;
+}
+h2.about-title {
+    margin-top: 2rem;
+}
+.work{
+   text-align: justify;
+  font-size: 15px;
+}
+.project-container{
+  height: 300px;
+  background-color:#4d0d07; 
+  
+}
+
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 10px 10px !important;
+    text-align: center;
+    
+  }
+ 
