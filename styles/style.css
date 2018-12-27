@@ -45,13 +45,12 @@ html{
   float: right;
 }
 .container-fluid {
- 
   margin-top:8rem;
   padding:15px 15px 600px;
   font-size:30px;
    
 }
-html ,.container-fluid {
+.container-fluid {
   background-color: #52bd9c;
 
  
@@ -81,6 +80,7 @@ h1.name{
   text-align: center;
   color: #ffffff;
 }
+
 .home-page{
   max-height: 1000px;
 }
@@ -97,7 +97,6 @@ h1.portfolio-title {
 
 }
 .portfolio-row{
-  height: 800px;
   background-color: white;
 }
 .portfolio{
@@ -133,6 +132,7 @@ h1.myresume {
 .about-content{
   text-align: justify;
   font-size: 15px;
+  color:white;
 }
 h2.about-title {
     margin-top: 2rem;
@@ -140,12 +140,13 @@ h2.about-title {
 .work{
    text-align: justify;
   font-size: 15px;
+  color:white;
 }
 .project-container1{
   height: 250px;
-  width: 75%;
+ /* width: 75%;*/
   margin:auto;
-  border:1px solid #52bd9c;
+ /* border:1px solid #52bd9c;*/
   background-image: url('../images/reward30.jpg');
   background-size: cover;
   box-sizing: border-box; 
@@ -154,9 +155,9 @@ h2.about-title {
 }
 .project-container2{
   height: 250px;
-  width: 75%;
+ /* width: 75%;*/
   margin:auto;
-  border:1px solid #52bd9c;
+/*  border:1px solid #52bd9c;*/
   background-image: url('../images/ecommerce.jpg');
   background-size: cover;
   box-sizing: border-box; 
@@ -165,10 +166,10 @@ h2.about-title {
 }
 .project-container3{
   height: 250px;
-  width: 75%;
+  /*width: 75%;*/
   margin:auto;
-  border:1px solid #52bd9c;
-  background-image: url('../images/reward30.jpg');
+  /*border:1px solid #52bd9c;*/
+  background-image: url('../images/fullstack.jpg');
   background-size: cover;
   box-sizing: border-box; 
   border-radius: 5px;
@@ -176,6 +177,9 @@ h2.about-title {
 }
 .progress-bar-striped{
   width: 5%;
+}
+.progress.last-progress {
+    margin-bottom: 11rem;
 }
 .html-css-bar{
   width: 30%;
@@ -190,7 +194,7 @@ div#skills {
 h1.myskills{
   margin-top: 10rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   color: #212529;
   font-weight: bolder;
 }
@@ -198,7 +202,7 @@ h1.myskills{
   border-top:1px solid white;
 }
 h1.mycontact{
-  margin-top: 5rem;
+  margin-top: 10rem;
   text-align: center;
   margin-bottom: 2rem;
   color: #ffffff;
@@ -213,13 +217,53 @@ h1.mycontact{
 }
 button.btn.btn-contact {
     margin-top: 30px;
+    background-color: #0099cc;
+    color: white;
+    font-weight: bolder;
 }
+  
 input.form-control {
     margin-bottom: -15px;
-
+}
+textarea.form-control {
+    height: 150px !important;
 }
 
+.contact-content{
+  color:white;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+p.contact-content{
+  font-size: 20px;
+}
+.contact-container{
+  background-color: #345373;
+  margin-top: 3rem;
+  margin-bottom: -38rem;
 
+}
+footer.row{
+  height: 100px;
+  background-color:#2c3e50; 
+
+}
+.copyright{
+  color:white;
+  text-align: center;
+  margin-top: 2rem;
+}
+button.btn.btn-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 3rem;
+    text-align: center;
+    display: inline-block;
+    margin-left:15%;
+
+}
 
 
 
