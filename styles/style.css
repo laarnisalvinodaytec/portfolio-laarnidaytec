@@ -70,6 +70,7 @@ div.photo-container{
    text-align: center;
    background-image: url('../images/ara.jpg');
    background-size: cover;
+
     
 }
 h1.name{
@@ -89,10 +90,11 @@ h1.name{
   margin-top: 5rem;
 }
 h1.portfolio-title {
-    margin-top: 5rem;
+    margin-top: 10rem;
     text-align: center;
-    color:#52bd9c;
+    color:#212529;
     font-weight: bolder;
+
 }
 .portfolio-row{
   height: 800px;
@@ -100,15 +102,19 @@ h1.portfolio-title {
 }
 .portfolio{
   color:#ffffff;
-  margin-top:5rem;
+  margin-top:10rem;
   margin-bottom: 2rem;
   text-align: center;
   font-weight: bolder;
 }
+.project-title{
+ color:#212529;
+ text-align: center;
+}
 
 .myresume{
   color:#ffffff;
-  margin-top:5rem;
+  margin-top:10rem;
   margin-bottom: 2rem;
   text-align: center;
   font-weight: bolder;
@@ -135,11 +141,87 @@ h2.about-title {
    text-align: justify;
   font-size: 15px;
 }
-.project-container{
-  height: 300px;
-  background-color:#4d0d07; 
-  
+.project-container1{
+  height: 250px;
+  width: 75%;
+  margin:auto;
+  border:1px solid #52bd9c;
+  background-image: url('../images/reward30.jpg');
+  background-size: cover;
+  box-sizing: border-box; 
+  border-radius: 5px;
+  margin-top:2rem;
 }
+.project-container2{
+  height: 250px;
+  width: 75%;
+  margin:auto;
+  border:1px solid #52bd9c;
+  background-image: url('../images/ecommerce.jpg');
+  background-size: cover;
+  box-sizing: border-box; 
+  border-radius: 5px;
+  margin-top:2rem;
+}
+.project-container3{
+  height: 250px;
+  width: 75%;
+  margin:auto;
+  border:1px solid #52bd9c;
+  background-image: url('../images/reward30.jpg');
+  background-size: cover;
+  box-sizing: border-box; 
+  border-radius: 5px;
+  margin-top:2rem;
+}
+.progress-bar-striped{
+  width: 5%;
+}
+.html-css-bar{
+  width: 30%;
+}
+div#skills {
+    background-color: white;
+ 
+}
+.row.skills-row {
+    background-color: white;
+}
+h1.myskills{
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #212529;
+  font-weight: bolder;
+}
+.line{
+  border-top:1px solid white;
+}
+h1.mycontact{
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.btn-contact{
+  height: 40px;  
+  width:20%;
+  color: #212529;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+button.btn.btn-contact {
+    margin-top: 30px;
+}
+input.form-control {
+    margin-bottom: -15px;
+
+}
+
+
+
+
 
 
 @media screen and (max-width: 580px) {
