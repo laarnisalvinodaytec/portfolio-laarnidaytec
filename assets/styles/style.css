@@ -4,9 +4,11 @@
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 html{
   scroll-behavior: smooth;
+  background-color: #52bd9c;
 }
 #navbar {
   overflow: hidden;
@@ -25,16 +27,10 @@ html{
     text-align: center;
     padding: 22px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 15px;
     border-radius: 4px;
     font-weight: bold;
-}
-
-#navbar #logo {
-  font-size: 35px;
-  font-weight: bold;
-  transition: 0.4s;
 }
 
 #navbar a:hover {
@@ -43,6 +39,9 @@ html{
 
 #navbar-right {
   float: right;
+}
+a {
+    margin-left: -22px;
 }
 .container-fluid {
   margin-top:8rem;
@@ -73,6 +72,7 @@ div.photo-container{
 h1.name{
   text-align: center;
   color: #ffffff;
+  font-weight: bold;
 }
 .star{
   text-align: center;
@@ -321,7 +321,7 @@ div.progress.bar4::before{
 
 @media screen and (max-width: 580px) {
   #navbar {
-    padding: 10px 10px !important;
+    padding: 35px 10px !important;
     text-align: center;
     
   }
