@@ -196,7 +196,7 @@ h2.about-title {
     margin-bottom: 11rem;
 }
 .progress.last-progress::before{
-  content: "JAVA";
+  content: "LARAVEL";
 }
 .html-css-bar{
   width: 30%;
@@ -307,10 +307,15 @@ div.progress.bar1::before{
   content:"HTML CSS";
 }
 div.progress.bar2::before{
-  content:"JAVASCRIPT";
-}div.progress.bar3::before{
-  content:"PHP";
+  content:"JAVASCRIPT JQUERY";
 }
+div.progress.bar3::before{
+  content:"PHP JAVA";
+}
+div.progress.bar4::before{
+  content:"GIT";
+}
+
 
 
 
